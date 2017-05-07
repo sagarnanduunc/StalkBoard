@@ -7,4 +7,4 @@ We collect our tweets using Twitter Streaming API in Python. We bounce these twe
 
 ## Dashboards Created:
 ### Count Dashboard
-![Count](https://github.com/sagarnanduunc/StalkBoard/blob/master/Images/Device Dashboard.JPG)
+![Count](https://github.com/sagarnanduunc/StalkBoard/blob/master/Images/Generic%20Dashboard.JPG)
