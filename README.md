@@ -2,4 +2,4 @@
 Live twitter stream analysis using Spark Streaming
 
 ## Architecture:
-![Architecture](https://github.com/sagarnanduunc/StalkBoard/Architecture.JPG)
+![Architecture](https://github.com/sagarnanduunc/StalkBoard/blob/master/Architecture.JPG)
