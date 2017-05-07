@@ -1,0 +1,19 @@
+[
+  {
+    "_id": "5c4adab0-32ad-11e7-9d1e-5f8e1ae2467c",
+    "_type": "dashboard",
+    "_source": {
+      "title": "SPL Project: Generic Dashboard",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"516661b0-320c-11e7-bce0-c3428db4b0f0\",\"panelIndex\":1,\"row\":1,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"73fe2c50-3296-11e7-8266-4f5c63f9c8ee\",\"panelIndex\":2,\"row\":3,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"338706a0-32a1-11e7-9d1e-5f8e1ae2467c\",\"panelIndex\":3,\"row\":3,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"e282c7e0-329f-11e7-9d1e-5f8e1ae2467c\",\"panelIndex\":4,\"row\":6,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"size_x\":6,\"size_y\":3,\"panelIndex\":5,\"type\":\"visualization\",\"id\":\"afb96c10-3295-11e7-bc8b-9192e7c12d91\",\"col\":7,\"row\":6}]",
+      "optionsJSON": "{\"darkTheme\":true}",
+      "uiStateJSON": "{}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"highlightAll\":true,\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  }
+]

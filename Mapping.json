@@ -1,0 +1,85 @@
+PUT /myproject
+{
+
+    "mappings": {
+
+        "america": {
+
+            "properties": {
+
+                "createAt": {"type": "date"},
+
+                "device": {"type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword",
+                      "ignore_above": 256
+                    }
+            }
+                },
+
+                "hashtags": {"type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword",
+                      "ignore_above": 256
+                    }
+            }
+                },
+                "location": {"type": "geo_point"
+                  
+            
+                },
+                "sentiment": {"type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword",
+                      "ignore_above": 256
+                    }
+            }
+                },
+                "text": {"type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword",
+                      "ignore_above": 256
+                    }
+            }
+                },
+                "user_lang": {"type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword",
+                      "ignore_above": 256
+                    }
+            }
+                },
+                "user_name": {"type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword",
+                      "ignore_above": 256
+                    }
+            }
+                },
+                "place": {"type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword",
+                      "ignore_above": 256
+                    }
+            }
+                },
+                "followers": {"type": "integer"},
+                "friends": {"type": "integer"},
+                "statusCount": {"type": "integer"},
+                "textSize": {"type": "integer"}
+                
+
+            }
+
+        }
+
+    }
+
+}

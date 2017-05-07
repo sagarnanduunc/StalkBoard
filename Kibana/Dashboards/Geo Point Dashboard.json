@@ -1,0 +1,19 @@
+[
+  {
+    "_id": "4470b740-32b0-11e7-9d1e-5f8e1ae2467c",
+    "_type": "dashboard",
+    "_source": {
+      "title": "SPL Project: Geo Point Dashboard",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"cf859dd0-3212-11e7-bce0-c3428db4b0f0\",\"panelIndex\":2,\"row\":1,\"size_x\":6,\"size_y\":5,\"type\":\"visualization\"},{\"col\":7,\"id\":\"2a6deda0-3296-11e7-8266-4f5c63f9c8ee\",\"panelIndex\":3,\"row\":1,\"size_x\":6,\"size_y\":5,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":true}",
+      "uiStateJSON": "{\"P-2\":{\"mapCenter\":[37.33522435930639,-97.1630859375],\"mapZoom\":4},\"P-3\":{\"mapCenter\":[37.75334401310656,-97.9541015625]}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"highlightAll\":true,\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  }
+]
