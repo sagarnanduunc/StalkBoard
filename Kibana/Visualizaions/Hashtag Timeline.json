@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "5f976ed0-32c7-11e7-aabc-0df96b566c18",
+    "_type": "visualization",
+    "_source": {
+      "title": "SPL Project: Hashtag Timeline",
+      "visState": "{\"title\":\"SPL Project: Hashtag Timeline\",\"type\":\"line\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"defaultYExtents\":false,\"drawLinesBetweenPoints\":true,\"interpolate\":\"linear\",\"legendPosition\":\"right\",\"radiusRatio\":9,\"scale\":\"linear\",\"setYExtents\":false,\"showCircles\":true,\"times\":[]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"split\",\"params\":{\"field\":\"hashtags.keyword\",\"size\":3,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Hashtag\",\"row\":true}},{\"id\":\"3\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"createAt\",\"interval\":\"m\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Hashtag Timeline\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"Count\":\"#7EB26D\",\"GoSpursGo\":\"#F29191\",\"breaking2\":\"#9AC48A\",\"job\":\"#F4D598\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"myproject\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "46eac150-3297-11e7-a9f8-c1141c88d675",
+    "_type": "visualization",
+    "_source": {
+      "title": "SPL Project: Tweet Length",
+      "visState": "{\"title\":\"SPL Project: Tweet Length\",\"type\":\"line\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"showCircles\":true,\"interpolate\":\"linear\",\"scale\":\"linear\",\"drawLinesBetweenPoints\":true,\"radiusRatio\":9,\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"range\",\"schema\":\"segment\",\"params\":{\"field\":\"textSize\",\"ranges\":[{\"from\":0,\"to\":30},{\"from\":30,\"to\":60},{\"from\":60,\"to\":90},{\"from\":90,\"to\":120},{\"from\":120}],\"customLabel\":\"Tweet Length\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"myproject\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  }
+]

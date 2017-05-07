@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "32133940-32cb-11e7-aabc-0df96b566c18",
+    "_type": "visualization",
+    "_source": {
+      "title": "SPL Project: Hashtag popular in Places",
+      "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{},\"schema\":\"metric\",\"type\":\"count\"},{\"enabled\":true,\"id\":\"2\",\"params\":{\"customLabel\":\"Hashtag\",\"field\":\"hashtags.keyword\",\"order\":\"desc\",\"orderBy\":\"1\",\"row\":true,\"size\":3},\"schema\":\"split\",\"type\":\"terms\"},{\"enabled\":true,\"id\":\"3\",\"params\":{\"customLabel\":\"Place\",\"field\":\"place.keyword\",\"order\":\"desc\",\"orderBy\":\"1\",\"size\":5},\"schema\":\"segment\",\"type\":\"terms\"}],\"listeners\":{},\"params\":{\"addLegend\":true,\"addTooltip\":true,\"isDonut\":true,\"legendPosition\":\"right\"},\"title\":\"SPL Project: Hashtag popular in Places\",\"type\":\"pie\"}",
+      "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"myproject\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  }
+]

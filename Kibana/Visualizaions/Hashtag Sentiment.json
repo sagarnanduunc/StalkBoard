@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "692b08a0-32ca-11e7-aabc-0df96b566c18",
+    "_type": "visualization",
+    "_source": {
+      "title": "SPL Project: Hashtag Sentiment",
+      "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{},\"schema\":\"metric\",\"type\":\"count\"},{\"enabled\":true,\"id\":\"2\",\"params\":{\"customLabel\":\"Hashtags\",\"field\":\"hashtags.keyword\",\"order\":\"desc\",\"orderBy\":\"1\",\"size\":5},\"schema\":\"segment\",\"type\":\"terms\"},{\"enabled\":true,\"id\":\"3\",\"params\":{\"customLabel\":\"Sentiment\",\"field\":\"sentiment.keyword\",\"order\":\"desc\",\"orderBy\":\"1\",\"size\":3},\"schema\":\"group\",\"type\":\"terms\"}],\"listeners\":{},\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"defaultYExtents\":false,\"legendPosition\":\"right\",\"mode\":\"grouped\",\"scale\":\"linear\",\"setYExtents\":false,\"times\":[]},\"title\":\"SPL Project: Hashtag Sentiment\",\"type\":\"histogram\"}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"NEGATIVE\":\"#E24D42\",\"NEUTRAL\":\"#F4D598\",\"POSITIVE\":\"#9AC48A\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"myproject\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  }
+]

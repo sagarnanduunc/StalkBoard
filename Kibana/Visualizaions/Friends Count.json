@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "9a024eb0-32a3-11e7-9d1e-5f8e1ae2467c",
+    "_type": "visualization",
+    "_source": {
+      "title": "SPL Project: Friends",
+      "visState": "{\"title\":\"SPL Project: Friends\",\"type\":\"histogram\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"square root\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"orderBucketsBySum\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Square root of Count\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"range\",\"schema\":\"segment\",\"params\":{\"field\":\"friends\",\"ranges\":[{\"from\":0,\"to\":1000},{\"from\":2000,\"to\":3000},{\"from\":5000,\"to\":10000},{\"from\":10000},{\"from\":1000,\"to\":2000},{\"from\":3000,\"to\":4000},{\"from\":4000,\"to\":5000}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"myproject\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  }
+]

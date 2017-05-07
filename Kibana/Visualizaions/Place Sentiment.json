@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "d079aa40-32a0-11e7-9d1e-5f8e1ae2467c",
+    "_type": "visualization",
+    "_source": {
+      "title": "SPL Project: Place Sentiment",
+      "visState": "{\"title\":\"SPL Project: Place Sentiment\",\"type\":\"histogram\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"mode\":\"grouped\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"place.keyword\",\"size\":8,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Places\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"sentiment.keyword\",\"size\":3,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Sentiment\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"split\",\"params\":{\"field\":\"createAt\",\"interval\":\"h\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"row\":true}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"NEGATIVE\":\"#EA6460\",\"NEUTRAL\":\"#F4D598\",\"POSITIVE\":\"#9AC48A\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"myproject\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  }
+]

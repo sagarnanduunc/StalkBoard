@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "516661b0-320c-11e7-bce0-c3428db4b0f0",
+    "_type": "visualization",
+    "_source": {
+      "title": "SPL Project: Unique Text Counts",
+      "visState": "{\"title\":\"SPL Project: Unique Text Counts\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":\"45\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"place.keyword\",\"customLabel\":\"Unique Places\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"device.keyword\",\"customLabel\":\"Unique Devices\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"hashtags.keyword\",\"customLabel\":\"Unique Hastags\"}},{\"id\":\"5\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"user_lang.keyword\",\"customLabel\":\"All Languages\"}},{\"id\":\"6\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"user_name.keyword\",\"customLabel\":\"Number of Users\"}},{\"id\":\"7\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"location\",\"customLabel\":\"Unique Geo points\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"myproject\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  }
+]
